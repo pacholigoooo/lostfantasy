@@ -1,0 +1,12 @@
+{
+  "name": "废线「废弃车站下车之旅」",
+  "category": "lostfantasy:basics",
+  "icon": "lostfantasy:gap_fragment",
+  "sortnum": 7,
+  "pages": [
+    {
+      "type": "text",
+      "text": "紫从身侧打开裂隙，左臂指$(br)向电车驶出的方向。车头离$(br)得很近，随后整列穿出。$(br)$(br)目标会先被缚住，连末影珍$(br)珠也无法带它脱身，接着承$(br)受撞击。这段术式随隙间碎$(br)片一同显现。"
+    }
+  ]
+}

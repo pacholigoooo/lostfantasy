@@ -1,0 +1,15 @@
+.gradle/
+build/
+run/
+.tools/
+logs/
+*.log
+.idea/
+*.iml
+.vscode/
+out/
+.env
+.env.*
+.aws/
+.codex/
+.agents/

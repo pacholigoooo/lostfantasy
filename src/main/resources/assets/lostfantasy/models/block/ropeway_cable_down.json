@@ -1,0 +1,40 @@
+{
+  "textures": {
+    "particle": "minecraft:blocks/coal_block",
+    "cable": "minecraft:blocks/coal_block"
+  },
+  "elements": [
+    {
+      "from": [
+        6.5,
+        0,
+        6.5
+      ],
+      "to": [
+        9.5,
+        6.5,
+        9.5
+      ],
+      "faces": {
+        "up": {
+          "texture": "#cable"
+        },
+        "down": {
+          "texture": "#cable"
+        },
+        "north": {
+          "texture": "#cable"
+        },
+        "south": {
+          "texture": "#cable"
+        },
+        "east": {
+          "texture": "#cable"
+        },
+        "west": {
+          "texture": "#cable"
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "variants": {
+    "normal": [
+      {
+        "model": "lostfantasy:fallen_petals",
+        "y": 0
+      },
+      {
+        "model": "lostfantasy:fallen_petals",
+        "y": 90
+      },
+      {
+        "model": "lostfantasy:fallen_petals",
+        "y": 180
+      },
+      {
+        "model": "lostfantasy:fallen_petals",
+        "y": 270
+      }
+    ]
+  }
+}

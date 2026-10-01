@@ -1,0 +1,46 @@
+{
+  "variants": {
+    "normal": [
+      {
+        "model": "lostfantasy:columnar_basalt",
+        "y": 0,
+        "weight": 3
+      },
+      {
+        "model": "lostfantasy:columnar_basalt",
+        "y": 90,
+        "weight": 3
+      },
+      {
+        "model": "lostfantasy:columnar_basalt",
+        "y": 180,
+        "weight": 3
+      },
+      {
+        "model": "lostfantasy:columnar_basalt",
+        "y": 270,
+        "weight": 3
+      },
+      {
+        "model": "lostfantasy:columnar_basalt_weathered",
+        "y": 0,
+        "weight": 2
+      },
+      {
+        "model": "lostfantasy:columnar_basalt_weathered",
+        "y": 90,
+        "weight": 2
+      },
+      {
+        "model": "lostfantasy:columnar_basalt_weathered",
+        "y": 180,
+        "weight": 2
+      },
+      {
+        "model": "lostfantasy:columnar_basalt_weathered",
+        "y": 270,
+        "weight": 2
+      }
+    ]
+  }
+}

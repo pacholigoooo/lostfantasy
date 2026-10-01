@@ -1,0 +1,6 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "lostfantasy:blocks/orange_maple_leaves"
+  }
+}

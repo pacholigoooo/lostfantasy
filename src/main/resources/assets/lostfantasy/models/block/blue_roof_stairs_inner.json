@@ -1,0 +1,8 @@
+{
+  "parent": "block/inner_stairs",
+  "textures": {
+    "top": "lostfantasy:blocks/blue_roof_tile",
+    "bottom": "lostfantasy:blocks/blue_roof_tile_edge",
+    "side": "lostfantasy:blocks/blue_roof_tile_edge"
+  }
+}

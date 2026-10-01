@@ -1,0 +1,99 @@
+{
+  "pools": [
+    {
+      "name": "music_materials",
+      "rolls": {
+        "min": 2,
+        "max": 4
+      },
+      "entries": [
+        {
+          "type": "item",
+          "name": "minecraft:paper",
+          "weight": 7,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 1,
+                "max": 6
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "minecraft:string",
+          "weight": 5,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 1,
+                "max": 4
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "minecraft:book",
+          "weight": 4,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 1,
+                "max": 2
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "minecraft:dye",
+          "weight": 3,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 1,
+                "max": 3
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "minecraft:feather",
+          "weight": 2,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 1,
+                "max": 2
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "rehearsal_note",
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "item",
+          "name": "minecraft:written_book",
+          "functions": [
+            {
+              "function": "set_nbt",
+              "tag": "{\"title\": \"练习簿\", \"author\": \"无署名\", \"pages\": [\"{\\\"text\\\": \\\"合奏\\\\n\\\\n弦乐先起，号声在第二遍进入。键盘留出间隔，等长音落下再接。\\\\n\\\\n散开的谱页已收进东侧柜子。\\\"}\", \"{\\\"text\\\": \\\"试音\\\\n\\\\n右键触碰乐器可以试音。触碰的位置由左向右，音高逐渐上升。\\\"}\"]}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "pools": [
+    {
+      "name": "boundary_fragment",
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "item",
+          "name": "lostfantasy:gap_fragment",
+          "weight": 1
+        }
+      ]
+    }
+  ]
+}

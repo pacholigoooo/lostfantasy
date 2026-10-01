@@ -1,0 +1,68 @@
+{
+  "variants": {
+    "facing=east,step=0": {
+      "model": "lostfantasy:bamboo_stem_0",
+      "y": 0
+    },
+    "facing=south,step=0": {
+      "model": "lostfantasy:bamboo_stem_0",
+      "y": 90
+    },
+    "facing=west,step=0": {
+      "model": "lostfantasy:bamboo_stem_0",
+      "y": 180
+    },
+    "facing=north,step=0": {
+      "model": "lostfantasy:bamboo_stem_0",
+      "y": 270
+    },
+    "facing=east,step=1": {
+      "model": "lostfantasy:bamboo_stem_1",
+      "y": 0
+    },
+    "facing=south,step=1": {
+      "model": "lostfantasy:bamboo_stem_1",
+      "y": 90
+    },
+    "facing=west,step=1": {
+      "model": "lostfantasy:bamboo_stem_1",
+      "y": 180
+    },
+    "facing=north,step=1": {
+      "model": "lostfantasy:bamboo_stem_1",
+      "y": 270
+    },
+    "facing=east,step=2": {
+      "model": "lostfantasy:bamboo_stem_2",
+      "y": 0
+    },
+    "facing=south,step=2": {
+      "model": "lostfantasy:bamboo_stem_2",
+      "y": 90
+    },
+    "facing=west,step=2": {
+      "model": "lostfantasy:bamboo_stem_2",
+      "y": 180
+    },
+    "facing=north,step=2": {
+      "model": "lostfantasy:bamboo_stem_2",
+      "y": 270
+    },
+    "facing=east,step=3": {
+      "model": "lostfantasy:bamboo_stem_3",
+      "y": 0
+    },
+    "facing=south,step=3": {
+      "model": "lostfantasy:bamboo_stem_3",
+      "y": 90
+    },
+    "facing=west,step=3": {
+      "model": "lostfantasy:bamboo_stem_3",
+      "y": 180
+    },
+    "facing=north,step=3": {
+      "model": "lostfantasy:bamboo_stem_3",
+      "y": 270
+    }
+  }
+}

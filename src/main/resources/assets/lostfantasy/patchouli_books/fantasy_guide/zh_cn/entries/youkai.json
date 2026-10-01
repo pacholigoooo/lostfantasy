@@ -1,0 +1,12 @@
+{
+  "name": "妖化药性",
+  "category": "lostfantasy:basics",
+  "icon": "lostfantasy:youkai_potion",
+  "sortnum": 2,
+  "pages": [
+    {
+      "type": "text",
+      "text": "女巫偶尔带着妖化药水。饮$(br)后成为草根妖怪，随战斗积$(br)聚妖力，逐渐化妖，继而成$(br)为大妖怪。$(br)$(br)隙间碎片要到大妖怪时才用$(br)得上，还须蓄满灵力。使用$(br)后灵力尽空，碎片化成秘钥$(br)，废线的术式随之显现，大$(br)妖怪也随之成为贤者。"
+    }
+  ]
+}

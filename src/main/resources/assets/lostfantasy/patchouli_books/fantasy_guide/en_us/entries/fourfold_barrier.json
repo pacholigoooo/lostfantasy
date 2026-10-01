@@ -1,0 +1,12 @@
+{
+  "name": "结界「魅力的四重结界」",
+  "category": "lostfantasy:basics",
+  "icon": "lostfantasy:barrier_study",
+  "sortnum": 10,
+  "pages": [
+    {
+      "type": "text",
+      "text": "紫的札记放在八云邸西侧藏$(br)书间的书桌上。达到大妖怪$(br)阶段，便可研习。$(br)$(br)四层结界在身前展开，一边$(br)吸近敌人，一边连击，最后$(br)一击最重。撑界时不能走动$(br)或出手，贴身处留有空隙。$(br)$(br)护身会先结束，连击仍在继$(br)续。结界散去后还有片刻收$(br)招，须留意身后。"
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "pools": [{
+    "name": "sewing", "rolls": {"min": 5, "max": 8},
+    "entries": [
+      {"type": "item", "name": "minecraft:string", "weight": 5, "functions": [{"function": "set_count", "count": {"min": 3, "max": 8}}]},
+      {"type": "item", "name": "minecraft:wool", "weight": 4, "functions": [{"function": "set_count", "count": {"min": 1, "max": 3}}]},
+      {"type": "item", "name": "minecraft:dye", "entryName": "lostfantasy:doll_blue_dye", "weight": 2, "functions": [{"function": "set_data", "data": 4}]},
+      {"type": "item", "name": "minecraft:dye", "entryName": "lostfantasy:doll_red_dye", "weight": 2, "functions": [{"function": "set_data", "data": 1}]},
+      {"type": "item", "name": "minecraft:leather", "weight": 2},
+      {"type": "item", "name": "minecraft:shears", "weight": 1}
+    ]
+  }]
+}

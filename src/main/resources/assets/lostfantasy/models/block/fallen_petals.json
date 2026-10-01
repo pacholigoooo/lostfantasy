@@ -1,0 +1,32 @@
+{
+  "ambientocclusion": false,
+  "textures": {
+    "particle": "lostfantasy:blocks/fallen_petals",
+    "petals": "lostfantasy:blocks/fallen_petals"
+  },
+  "elements": [
+    {
+      "from": [
+        0,
+        0.02,
+        0
+      ],
+      "to": [
+        16,
+        0.08,
+        16
+      ],
+      "faces": {
+        "up": {
+          "texture": "#petals",
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ]
+        }
+      }
+    }
+  ]
+}

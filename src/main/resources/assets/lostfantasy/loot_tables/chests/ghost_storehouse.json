@@ -1,0 +1,59 @@
+{
+  "pools": [
+    {
+      "name": "storehouse_note",
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "item",
+          "name": "minecraft:written_book",
+          "functions": [
+            {
+              "function": "set_nbt",
+              "tag": "{\"title\": \"收存清单\", \"author\": \"仓库当值\", \"pages\": [\"{\\\"text\\\": \\\"置行堀封冻时搬出的东西，先收在洋馆后间。零件与旧书分开，管具靠墙。搬运后把楼梯和侧门空出来。\\\"}\"]}"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "stored_tools",
+      "rolls": {
+        "min": 2,
+        "max": 4
+      },
+      "entries": [
+        {
+          "type": "item",
+          "name": "minecraft:paper",
+          "weight": 4
+        },
+        {
+          "type": "item",
+          "name": "minecraft:string",
+          "weight": 3
+        },
+        {
+          "type": "item",
+          "name": "minecraft:redstone",
+          "weight": 2
+        },
+        {
+          "type": "item",
+          "name": "minecraft:iron_ingot",
+          "weight": 2
+        },
+        {
+          "type": "item",
+          "name": "minecraft:bowl",
+          "weight": 2
+        },
+        {
+          "type": "item",
+          "name": "minecraft:clock",
+          "weight": 1
+        }
+      ]
+    }
+  ]
+}

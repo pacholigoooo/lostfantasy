@@ -1,0 +1,12 @@
+{
+  "name": "神槍「冈格尼尔之枪」",
+  "category": "lostfantasy:basics",
+  "icon": "lostfantasy:gungnir_study",
+  "sortnum": 8,
+  "pages": [
+    {
+      "type": "text",
+      "text": "研习页用纸、血浆、铁剑和$(br)红石。梦魇以后才能学。$(br)$(br)蕾米莉亚的神槍。抬臂蓄势$(br)后投出，能连续贯穿沿途的$(br)敌人，并将其短暂钉住。迎$(br)面来的箭矢会碎，实体墙壁$(br)能挡住枪身。"
+    }
+  ]
+}

@@ -1,0 +1,7 @@
+{
+  "parent": "lostfantasy:item/grimoire_manuscript",
+  "textures": {
+    "ink": "minecraft:blocks/concrete_gray",
+    "seal": "minecraft:blocks/emerald_block"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "name": "Higan and the Ferry",
+  "category": "lostfantasy:basics",
+  "icon": "lostfantasy:higan_lily",
+  "sortnum": 17,
+  "pages": [
+    {
+      "type": "text",
+      "text": "Gather Higan lilies from flower$(br)fields. Hold one to travel to this$(br)shore of the Sanzu River. Flight$(br)and teleporting are disabled$(br)along the river and at Higan."
+    },
+    {
+      "type": "text",
+      "text": "右键小町或渡船即可登船。$(br)渡船在此岸与彼岸码头之间$(br)自动往返；靠岸后下船，要$(br)返程可再次登船。$(br2)回此岸后，可沿赛之河原$(br)和中有之道步行离开。"
+    },
+    {
+      "type": "text",
+      "text": "Use the Misfortune God's Ribbon$(br)in the Overworld to draw out your$(br)fortune. A golden thread flows$(br)into the ribbon in your hand; it$(br)glows when the process is done.$(br)Ferry travel does not change$(br)your inventory, growth, or the$(br)extracted-fortune state."
+    }
+  ]
+}

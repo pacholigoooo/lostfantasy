@@ -1,0 +1,12 @@
+{
+  "name": "回灵",
+  "category": "lostfantasy:basics",
+  "icon": "lostfantasy:ofuda",
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "text",
+      "text": "灵力耗尽后，恢复得很慢。$(br)积累得久了，身体能容纳的$(br)量也会增多。$(br)$(br)敌人倒下时会留下散逸的力$(br)量，可以收拢。积存下来，$(br)挥击和法器的威力都有增长$(br)；施展符卡则会耗去一部分$(br)。"
+    }
+  ]
+}

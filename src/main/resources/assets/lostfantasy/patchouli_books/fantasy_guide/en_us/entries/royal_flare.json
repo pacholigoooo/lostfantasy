@@ -1,0 +1,12 @@
+{
+  "name": "日符「皇家烈焰」",
+  "category": "lostfantasy:basics",
+  "icon": "lostfantasy:grimoire_manuscript",
+  "sortnum": 6,
+  "pages": [
+    {
+      "type": "text",
+      "text": "火球在头顶凝聚，双臂向外$(br)展开，日之领域随之铺开。$(br)维持期间，热流不断灼烧领$(br)域内的敌人。$(br)$(br)场能计算和约束条件在我的$(br)原稿里。那几页推导连着，$(br)前后不能缺。"
+    }
+  ]
+}

@@ -1,0 +1,84 @@
+{
+  "variants": {
+    "facing=north,occupied=false,part=head": {
+      "model": "lostfantasy:castle_bed_head",
+      "x": 180,
+      "y": 180
+    },
+    "facing=north,occupied=true,part=head": {
+      "model": "lostfantasy:castle_bed_head",
+      "x": 180,
+      "y": 180
+    },
+    "facing=east,occupied=false,part=head": {
+      "model": "lostfantasy:castle_bed_head",
+      "x": 180,
+      "y": 270
+    },
+    "facing=east,occupied=true,part=head": {
+      "model": "lostfantasy:castle_bed_head",
+      "x": 180,
+      "y": 270
+    },
+    "facing=south,occupied=false,part=head": {
+      "model": "lostfantasy:castle_bed_head",
+      "x": 180,
+      "y": 0
+    },
+    "facing=south,occupied=true,part=head": {
+      "model": "lostfantasy:castle_bed_head",
+      "x": 180,
+      "y": 0
+    },
+    "facing=west,occupied=false,part=head": {
+      "model": "lostfantasy:castle_bed_head",
+      "x": 180,
+      "y": 90
+    },
+    "facing=west,occupied=true,part=head": {
+      "model": "lostfantasy:castle_bed_head",
+      "x": 180,
+      "y": 90
+    },
+    "facing=north,occupied=false,part=foot": {
+      "model": "lostfantasy:castle_bed_foot",
+      "x": 180,
+      "y": 180
+    },
+    "facing=north,occupied=true,part=foot": {
+      "model": "lostfantasy:castle_bed_foot",
+      "x": 180,
+      "y": 180
+    },
+    "facing=east,occupied=false,part=foot": {
+      "model": "lostfantasy:castle_bed_foot",
+      "x": 180,
+      "y": 270
+    },
+    "facing=east,occupied=true,part=foot": {
+      "model": "lostfantasy:castle_bed_foot",
+      "x": 180,
+      "y": 270
+    },
+    "facing=south,occupied=false,part=foot": {
+      "model": "lostfantasy:castle_bed_foot",
+      "x": 180,
+      "y": 0
+    },
+    "facing=south,occupied=true,part=foot": {
+      "model": "lostfantasy:castle_bed_foot",
+      "x": 180,
+      "y": 0
+    },
+    "facing=west,occupied=false,part=foot": {
+      "model": "lostfantasy:castle_bed_foot",
+      "x": 180,
+      "y": 90
+    },
+    "facing=west,occupied=true,part=foot": {
+      "model": "lostfantasy:castle_bed_foot",
+      "x": 180,
+      "y": 90
+    }
+  }
+}

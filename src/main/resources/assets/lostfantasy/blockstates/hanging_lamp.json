@@ -1,0 +1,1 @@
+{"variants": {"facing=north": {"model": "lostfantasy:hanging_lamp", "y": 0}, "facing=east": {"model": "lostfantasy:hanging_lamp", "y": 90}, "facing=south": {"model": "lostfantasy:hanging_lamp", "y": 180}, "facing=west": {"model": "lostfantasy:hanging_lamp", "y": 270}}}

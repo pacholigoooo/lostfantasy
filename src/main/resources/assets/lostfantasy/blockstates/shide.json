@@ -1,0 +1,20 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "lostfantasy:shide",
+      "y": 0
+    },
+    "facing=east": {
+      "model": "lostfantasy:shide",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "lostfantasy:shide",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "lostfantasy:shide",
+      "y": 270
+    }
+  }
+}

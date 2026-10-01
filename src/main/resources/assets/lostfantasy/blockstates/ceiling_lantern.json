@@ -1,0 +1,24 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "lostfantasy:red_lantern",
+      "x": 180,
+      "y": 180
+    },
+    "facing=east": {
+      "model": "lostfantasy:red_lantern",
+      "x": 180,
+      "y": 270
+    },
+    "facing=south": {
+      "model": "lostfantasy:red_lantern",
+      "x": 180,
+      "y": 0
+    },
+    "facing=west": {
+      "model": "lostfantasy:red_lantern",
+      "x": 180,
+      "y": 90
+    }
+  }
+}

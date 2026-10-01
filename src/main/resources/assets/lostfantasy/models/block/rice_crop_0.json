@@ -1,0 +1,6 @@
+{
+  "parent": "block/cross",
+  "textures": {
+    "cross": "lostfantasy:blocks/rice_0"
+  }
+}

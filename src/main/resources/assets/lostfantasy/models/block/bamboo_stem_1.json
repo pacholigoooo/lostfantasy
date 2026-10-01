@@ -1,0 +1,145 @@
+{
+  "parent": "block/block",
+  "textures": {
+    "particle": "lostfantasy:blocks/bamboo_culm",
+    "culm": "lostfantasy:blocks/bamboo_culm"
+  },
+  "elements": [
+    {
+      "from": [
+        4.5,
+        0,
+        6.5
+      ],
+      "to": [
+        7.5,
+        8,
+        9.5
+      ],
+      "faces": {
+        "up": {
+          "texture": "#culm",
+          "uv": [
+            0,
+            0,
+            5.5,
+            16
+          ]
+        },
+        "down": {
+          "texture": "#culm",
+          "uv": [
+            0,
+            0,
+            5.5,
+            16
+          ]
+        },
+        "east": {
+          "texture": "#culm",
+          "uv": [
+            0,
+            0,
+            5.5,
+            16
+          ]
+        },
+        "west": {
+          "texture": "#culm",
+          "uv": [
+            0,
+            0,
+            5.5,
+            16
+          ]
+        },
+        "north": {
+          "texture": "#culm",
+          "uv": [
+            0,
+            0,
+            5.5,
+            16
+          ]
+        },
+        "south": {
+          "texture": "#culm",
+          "uv": [
+            0,
+            0,
+            5.5,
+            16
+          ]
+        }
+      }
+    },
+    {
+      "from": [
+        6.5,
+        8,
+        6.5
+      ],
+      "to": [
+        9.5,
+        16,
+        9.5
+      ],
+      "faces": {
+        "up": {
+          "texture": "#culm",
+          "uv": [
+            0,
+            0,
+            5.5,
+            16
+          ]
+        },
+        "down": {
+          "texture": "#culm",
+          "uv": [
+            0,
+            0,
+            5.5,
+            16
+          ]
+        },
+        "east": {
+          "texture": "#culm",
+          "uv": [
+            0,
+            0,
+            5.5,
+            16
+          ]
+        },
+        "west": {
+          "texture": "#culm",
+          "uv": [
+            0,
+            0,
+            5.5,
+            16
+          ]
+        },
+        "north": {
+          "texture": "#culm",
+          "uv": [
+            0,
+            0,
+            5.5,
+            16
+          ]
+        },
+        "south": {
+          "texture": "#culm",
+          "uv": [
+            0,
+            0,
+            5.5,
+            16
+          ]
+        }
+      }
+    }
+  ]
+}

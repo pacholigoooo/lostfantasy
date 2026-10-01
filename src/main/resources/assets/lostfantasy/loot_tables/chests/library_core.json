@@ -1,0 +1,23 @@
+{
+  "pools": [
+    {
+      "name": "vampire_relic",
+      "rolls": 1,
+      "entries": [
+        { "type": "item", "name": "lostfantasy:suspicious_tea", "entryName": "lostfantasy:library_core_tea" }
+      ]
+    },
+    {
+      "name": "central_archive",
+      "rolls": { "min": 2, "max": 3 },
+      "entries": [
+        { "type": "item", "name": "minecraft:book", "entryName": "lostfantasy:library_core_books", "weight": 16, "functions": [{ "function": "set_count", "count": { "min": 2, "max": 6 } }] },
+        { "type": "item", "name": "minecraft:experience_bottle", "entryName": "lostfantasy:library_core_experience", "weight": 12, "functions": [{ "function": "set_count", "count": { "min": 2, "max": 5 } }] },
+        { "type": "item", "name": "minecraft:ender_pearl", "entryName": "lostfantasy:library_core_pearl", "weight": 8, "functions": [{ "function": "set_count", "count": { "min": 1, "max": 2 } }] },
+        { "type": "item", "name": "minecraft:gold_ingot", "entryName": "lostfantasy:library_core_gold", "weight": 8, "functions": [{ "function": "set_count", "count": { "min": 1, "max": 3 } }] },
+        { "type": "item", "name": "minecraft:book", "entryName": "lostfantasy:library_core_enchanted_book", "weight": 6, "functions": [{ "function": "enchant_randomly" }] },
+        { "type": "item", "name": "minecraft:name_tag", "entryName": "lostfantasy:library_core_name_tag", "weight": 2 }
+      ]
+    }
+  ]
+}

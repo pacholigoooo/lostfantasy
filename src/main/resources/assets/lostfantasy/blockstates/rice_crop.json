@@ -1,0 +1,28 @@
+{
+  "variants": {
+    "age=0": {
+      "model": "lostfantasy:rice_crop_0"
+    },
+    "age=1": {
+      "model": "lostfantasy:rice_crop_0"
+    },
+    "age=2": {
+      "model": "lostfantasy:rice_crop_1"
+    },
+    "age=3": {
+      "model": "lostfantasy:rice_crop_1"
+    },
+    "age=4": {
+      "model": "lostfantasy:rice_crop_2"
+    },
+    "age=5": {
+      "model": "lostfantasy:rice_crop_2"
+    },
+    "age=6": {
+      "model": "lostfantasy:rice_crop_2"
+    },
+    "age=7": {
+      "model": "lostfantasy:rice_crop_3"
+    }
+  }
+}

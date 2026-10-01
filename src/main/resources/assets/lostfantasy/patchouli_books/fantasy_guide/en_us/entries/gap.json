@@ -1,0 +1,12 @@
+{
+  "name": "秘钥随身",
+  "category": "lostfantasy:basics",
+  "icon": "lostfantasy:gap_key",
+  "sortnum": 13,
+  "pages": [
+    {
+      "type": "text",
+      "text": "用秘钥打开裂隙，持钥便能$(br)往返。里面看不见地面，脚$(br)下停在进入时的高度，仍可$(br)走动。$(br)$(br)贤者反击时能把袭击者拖进$(br)去。被卷入的人要凭秘钥离$(br)开，等得再久也没有出口。$(br)钥匙得随身带着。"
+    }
+  ]
+}

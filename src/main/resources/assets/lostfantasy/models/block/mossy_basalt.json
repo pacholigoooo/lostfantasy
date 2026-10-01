@@ -1,0 +1,7 @@
+{
+  "parent": "block/cube_column",
+  "textures": {
+    "end": "lostfantasy:blocks/genbu_moss_top",
+    "side": "lostfantasy:blocks/genbu_moss_side"
+  }
+}

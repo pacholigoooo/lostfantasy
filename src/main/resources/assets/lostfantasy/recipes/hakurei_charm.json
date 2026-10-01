@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [" S ", "WPW", " G "],
+  "key": {
+    "S": {"item": "minecraft:string"},
+    "W": {"item": "minecraft:wool", "data": 14},
+    "P": {"item": "minecraft:paper"},
+    "G": {"item": "minecraft:gold_nugget"}
+  },
+  "result": {"item": "lostfantasy:hakurei_charm"}
+}

@@ -1,0 +1,20 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "lostfantasy:archive_catalog",
+      "y": 0
+    },
+    "facing=east": {
+      "model": "lostfantasy:archive_catalog",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "lostfantasy:archive_catalog",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "lostfantasy:archive_catalog",
+      "y": 270
+    }
+  }
+}

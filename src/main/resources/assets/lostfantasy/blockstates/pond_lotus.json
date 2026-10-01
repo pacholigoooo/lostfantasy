@@ -1,0 +1,22 @@
+{
+  "variants": {
+    "normal": [
+      {
+        "model": "lostfantasy:pond_lotus",
+        "y": 0
+      },
+      {
+        "model": "lostfantasy:pond_lotus",
+        "y": 90
+      },
+      {
+        "model": "lostfantasy:pond_lotus",
+        "y": 180
+      },
+      {
+        "model": "lostfantasy:pond_lotus",
+        "y": 270
+      }
+    ]
+  }
+}

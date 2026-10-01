@@ -1,0 +1,12 @@
+{
+  "name": "博丽的归路",
+  "category": "lostfantasy:basics",
+  "icon": "lostfantasy:hakurei_charm",
+  "sortnum": 18,
+  "pages": [
+    {
+      "type": "text",
+      "text": "博丽御守用两块红羊毛、一$(br)张纸、一根线和一粒金粒合$(br)成。在主世界站稳，持御守$(br)长按两秒，便会来到博丽神$(br)社。御守可以反复使用。$(br)$(br)返回时，走到神社最外侧的$(br)鸟居，主手空着，潜行右键$(br)石座。旁边挂有归途木牌。$(br)归路通向各人原来的出发处$(br)，御守不必随身带着。"
+    }
+  ]
+}

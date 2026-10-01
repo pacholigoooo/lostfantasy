@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "lostfantasy:dragon_gem_block",
+      "data": 0
+    }
+  ],
+  "result": {
+    "item": "lostfantasy:dragon_gem",
+    "count": 9
+  }
+}

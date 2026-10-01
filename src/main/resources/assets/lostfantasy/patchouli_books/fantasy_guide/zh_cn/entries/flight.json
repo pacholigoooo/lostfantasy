@@ -1,0 +1,12 @@
+{
+  "name": "飞行",
+  "category": "lostfantasy:basics",
+  "icon": "lostfantasy:advanced_grimoire",
+  "sortnum": 14,
+  "pages": [
+    {
+      "type": "text",
+      "text": "大魔法使、妖怪贤者和鲜红$(br)之月，都能自由飞行。到了$(br)三途河，飞行与遁行都不起$(br)作用。"
+    }
+  ]
+}

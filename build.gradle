@@ -1,0 +1,88 @@
+buildscript {
+    repositories {
+        if (System.getenv('LF_MAVEN_PROXY')) { maven { url = System.getenv('LF_MAVEN_PROXY') } }
+        maven { url = 'https://maven.minecraftforge.net/' }
+        mavenCentral()
+    }
+    dependencies { classpath 'net.minecraftforge.gradle:ForgeGradle:3.0.197' }
+}
+apply plugin: 'net.minecraftforge.gradle'
+apply plugin: 'eclipse'
+
+version = '0.5.6'
+group = 'dev.lostfantasy'
+archivesBaseName = 'lost-fantasy-1.12.2'
+sourceCompatibility = targetCompatibility = '1.8'
+
+minecraft {
+    mappings channel: 'stable', version: '39-1.12'
+    runs {
+        client {
+            workingDirectory project.file('run/client')
+            property 'fml.coreMods.load', 'dev.lostfantasy.asm.DamageLoadingPlugin'
+            property 'forge.logging.console.level', 'info'
+            if (project.hasProperty('higanPreview')) { property 'lostfantasy.higanPreview', 'true' }
+            if (project.hasProperty('higanArtPreview')) { property 'lostfantasy.higanArtPreview', 'true' }
+            if (project.hasProperty('ribbonArtPreview')) { property 'lostfantasy.ribbonArtPreview', 'true' }
+            if (project.hasProperty('fortunePreview')) { property 'lostfantasy.fortunePreview', 'true' }
+            if (project.hasProperty('komachiPreview')) { property 'lostfantasy.komachiPreview', 'true' }
+            if (project.hasProperty('komachiStateAudit')) { property 'lostfantasy.komachiStateAudit', 'true' }
+            if (project.hasProperty('komachiStateBaseline')) { property 'lostfantasy.komachiStateBaseline', 'true' }
+        }
+        server {
+            workingDirectory project.file('run/server')
+            property 'fml.coreMods.load', 'dev.lostfantasy.asm.DamageLoadingPlugin'
+            property 'forge.logging.console.level', 'info'
+        }
+    }
+}
+repositories {
+    if (file('.tools/maven-cache').exists()) { maven { url uri(file('.tools/maven-cache')) } }
+    if (System.getenv('LF_MAVEN_PROXY')) { maven { url = System.getenv('LF_MAVEN_PROXY') } }
+    mavenCentral()
+}
+dependencies {
+    minecraft 'net.minecraftforge:forge:1.12.2-14.23.5.2864'
+    implementation 'net.minecraft:client:1.12.2:extra'
+    compileOnly 'com.google.code.findbugs:jsr305:3.0.2'
+    testImplementation 'junit:junit:4.13.2'
+}
+tasks.withType(JavaCompile) { options.encoding = 'UTF-8' }
+processResources {
+    inputs.property 'version', project.version
+    filesMatching('mcmod.info') { expand 'version': project.version }
+}
+jar {
+    exclude 'dev/lostfantasy/preview/**'
+    manifest { attributes 'Implementation-Title': 'Lost Fantasy', 'Implementation-Version': project.version,
+            'FMLCorePlugin': 'dev.lostfantasy.asm.DamageLoadingPlugin', 'FMLCorePluginContainsFMLMod': 'true' }
+    preserveFileTimestamps = false
+    reproducibleFileOrder = true
+}
+jar.finalizedBy('reobfJar')
+// Opt-in diagnostic artifact for the local production OptiFine runtime; never packaged in dist.
+task shaderCheckJar(type: Jar) {
+    archiveName = 'lost-fantasy-shader-check.jar'
+    destinationDir = file('build/shader-check')
+    from sourceSets.main.output
+    manifest { attributes 'FMLCorePlugin': 'dev.lostfantasy.asm.DamageLoadingPlugin', 'FMLCorePluginContainsFMLMod': 'true' }
+}
+reobf { shaderCheckJar {} }
+shaderCheckJar.finalizedBy('reobfShaderCheckJar')
+task exportLibrary(type: JavaExec, dependsOn: testClasses) {
+    group = 'documentation'
+    description = 'Export library block geometry without launching Minecraft or running tests.'
+    classpath = sourceSets.test.runtimeClasspath
+    main = 'dev.lostfantasy.world.LibraryBlueprintExport'
+}
+task exportGensokyo(type: JavaExec, dependsOn: testClasses) {
+    group = 'documentation'
+    description = 'Export Gensokyo terrain and architecture without launching Minecraft.'
+    classpath = sourceSets.test.runtimeClasspath
+    main = 'dev.lostfantasy.world.gensokyo.GensokyoExport'
+}
+sourceSets.each {
+    def dir = layout.buildDirectory.file("sourcesSets/$it.name").get().asFile
+    it.output.resourcesDir = dir
+    it.java.outputDir = dir
+}

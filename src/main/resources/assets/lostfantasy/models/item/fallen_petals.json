@@ -1,0 +1,6 @@
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "lostfantasy:blocks/fallen_petals"
+  }
+}

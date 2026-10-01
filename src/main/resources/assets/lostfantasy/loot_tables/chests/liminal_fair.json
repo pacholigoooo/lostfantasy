@@ -1,0 +1,66 @@
+{
+  "pools": [
+    {
+      "rolls": {
+        "min": 3,
+        "max": 6
+      },
+      "entries": [
+        {
+          "type": "item",
+          "name": "minecraft:sugar",
+          "weight": 6,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 2,
+                "max": 7
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "minecraft:fish",
+          "weight": 3
+        },
+        {
+          "type": "item",
+          "name": "minecraft:paper",
+          "weight": 4
+        },
+        {
+          "type": "item",
+          "name": "minecraft:pumpkin_pie",
+          "weight": 3
+        },
+        {
+          "type": "item",
+          "name": "minecraft:cookie",
+          "weight": 5,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 2,
+                "max": 6
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "minecraft:string",
+          "weight": 2
+        },
+        {
+          "type": "item",
+          "name": "minecraft:glass_bottle",
+          "weight": 2
+        }
+      ],
+      "name": "liminal_fair"
+    }
+  ]
+}

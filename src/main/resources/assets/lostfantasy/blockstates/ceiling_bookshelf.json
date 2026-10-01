@@ -1,0 +1,24 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "minecraft:bookshelf",
+      "x": 180,
+      "y": 180
+    },
+    "facing=east": {
+      "model": "minecraft:bookshelf",
+      "x": 180,
+      "y": 270
+    },
+    "facing=south": {
+      "model": "minecraft:bookshelf",
+      "x": 180,
+      "y": 0
+    },
+    "facing=west": {
+      "model": "minecraft:bookshelf",
+      "x": 180,
+      "y": 90
+    }
+  }
+}

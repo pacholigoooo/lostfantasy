@@ -1,0 +1,20 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "lostfantasy:rehearsal_keyboard",
+      "y": 0
+    },
+    "facing=east": {
+      "model": "lostfantasy:rehearsal_keyboard",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "lostfantasy:rehearsal_keyboard",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "lostfantasy:rehearsal_keyboard",
+      "y": 270
+    }
+  }
+}

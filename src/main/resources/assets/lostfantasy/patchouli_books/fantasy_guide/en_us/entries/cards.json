@@ -1,0 +1,12 @@
+{
+  "name": "护身",
+  "category": "lostfantasy:basics",
+  "icon": "lostfantasy:gungnir_study",
+  "sortnum": 5,
+  "pages": [
+    {
+      "type": "text",
+      "text": "皇家烈焰、废线和冈格尼尔$(br)，在起势时便有护身作用，$(br)收术后随即消失。$(br)$(br)四重存在仍会负伤。分身分$(br)去一部分，本体承受余下的$(br)伤势。"
+    }
+  ]
+}

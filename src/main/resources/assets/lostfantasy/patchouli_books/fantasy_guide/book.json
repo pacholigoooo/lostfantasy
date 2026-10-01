@@ -1,0 +1,12 @@
+{
+  "name": "帕秋莉的笔记",
+  "landing_text": "帕秋莉·诺蕾姬$(br2)日符原稿在北侧档案室，隔着书墙。计算纸夹在一起，带走时别拆散。",
+  "version": "0",
+  "subtitle": "",
+  "dont_generate_book": true,
+  "custom_book_item": "lostfantasy:fantasy_guide",
+  "creative_tab": "lostfantasy",
+  "model": "lostfantasy:fantasy_guide",
+  "book_texture": "patchouli:textures/gui/book_purple.png",
+  "show_progress": false
+}

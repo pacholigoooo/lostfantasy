@@ -1,0 +1,7 @@
+{
+  "parent": "block/cube_column",
+  "textures": {
+    "end": "lostfantasy:blocks/basalt_top_weathered",
+    "side": "lostfantasy:blocks/basalt_side_weathered"
+  }
+}

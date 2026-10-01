@@ -1,0 +1,1 @@
+{"variants": {"facing=north": {"model": "lostfantasy:washstand", "y": 0}, "facing=east": {"model": "lostfantasy:washstand", "y": 90}, "facing=south": {"model": "lostfantasy:washstand", "y": 180}, "facing=west": {"model": "lostfantasy:washstand", "y": 270}}}

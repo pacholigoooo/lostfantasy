@@ -1,0 +1,68 @@
+{
+  "variants": {
+    "damage=double_sided,facing=north": {
+      "model": "lostfantasy:ruined_bookcase_double_sided",
+      "y": 0
+    },
+    "damage=double_sided,facing=east": {
+      "model": "lostfantasy:ruined_bookcase_double_sided",
+      "y": 90
+    },
+    "damage=double_sided,facing=south": {
+      "model": "lostfantasy:ruined_bookcase_double_sided",
+      "y": 180
+    },
+    "damage=double_sided,facing=west": {
+      "model": "lostfantasy:ruined_bookcase_double_sided",
+      "y": 270
+    },
+    "damage=empty,facing=north": {
+      "model": "lostfantasy:ruined_bookcase_empty",
+      "y": 0
+    },
+    "damage=empty,facing=east": {
+      "model": "lostfantasy:ruined_bookcase_empty",
+      "y": 90
+    },
+    "damage=empty,facing=south": {
+      "model": "lostfantasy:ruined_bookcase_empty",
+      "y": 180
+    },
+    "damage=empty,facing=west": {
+      "model": "lostfantasy:ruined_bookcase_empty",
+      "y": 270
+    },
+    "damage=sparse,facing=north": {
+      "model": "lostfantasy:ruined_bookcase_sparse",
+      "y": 0
+    },
+    "damage=sparse,facing=east": {
+      "model": "lostfantasy:ruined_bookcase_sparse",
+      "y": 90
+    },
+    "damage=sparse,facing=south": {
+      "model": "lostfantasy:ruined_bookcase_sparse",
+      "y": 180
+    },
+    "damage=sparse,facing=west": {
+      "model": "lostfantasy:ruined_bookcase_sparse",
+      "y": 270
+    },
+    "damage=collapsed,facing=north": {
+      "model": "lostfantasy:ruined_bookcase_collapsed",
+      "y": 0
+    },
+    "damage=collapsed,facing=east": {
+      "model": "lostfantasy:ruined_bookcase_collapsed",
+      "y": 90
+    },
+    "damage=collapsed,facing=south": {
+      "model": "lostfantasy:ruined_bookcase_collapsed",
+      "y": 180
+    },
+    "damage=collapsed,facing=west": {
+      "model": "lostfantasy:ruined_bookcase_collapsed",
+      "y": 270
+    }
+  }
+}

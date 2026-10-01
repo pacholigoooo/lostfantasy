@@ -1,0 +1,12 @@
+{
+  "name": "法器用料",
+  "category": "lostfantasy:basics",
+  "icon": "lostfantasy:mini_hakkero",
+  "sortnum": 4,
+  "pages": [
+    {
+      "type": "text",
+      "text": "灵符：纸四张，红石两份。$(br)御币：木棍两支，纸四张。$(br)阴阳玉：石英四份，末影珍$(br)珠一枚。$(br)迷你八卦炉：铁锭四块，烈$(br)焰粉两份，红石四份。$(br)$(br)制作时都需注入灵力，灵符$(br)用得最少，八卦炉最多。御$(br)币直接挥击；灵符放出后，$(br)碰上敌人或墙壁便停。阴阳$(br)玉、八卦炉每次施术也有消$(br)耗。"
+    }
+  ]
+}

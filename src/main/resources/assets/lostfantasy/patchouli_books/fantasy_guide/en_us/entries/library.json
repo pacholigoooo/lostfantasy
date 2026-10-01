@@ -1,0 +1,12 @@
+{
+  "name": "原稿存处",
+  "category": "lostfantasy:basics",
+  "icon": "lostfantasy:grimoire_manuscript",
+  "sortnum": 15,
+  "pages": [
+    {
+      "type": "text",
+      "text": "红魔馆地下的图书馆仍留着$(br)石砌入口。中央研究桌还在$(br)，周围一圈书架。天窗和柜$(br)顶已经破损，通道旁留着萤$(br)石。$(br)$(br)皇家烈焰原稿收在北侧档案$(br)室的箱中。门藏在书墙后，$(br)挪开那几段残破书架才能进$(br)去，里面只有这一份。$(br)$(br)茶桌旁的箱子还放着“红茶$(br)?”。其他箱中多为书纸、$(br)炼金材料。"
+    }
+  ]
+}

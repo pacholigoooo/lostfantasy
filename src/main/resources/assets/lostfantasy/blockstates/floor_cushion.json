@@ -1,0 +1,1 @@
+{"variants": {"facing=north": {"model": "lostfantasy:floor_cushion", "y": 0}, "facing=east": {"model": "lostfantasy:floor_cushion", "y": 90}, "facing=south": {"model": "lostfantasy:floor_cushion", "y": 180}, "facing=west": {"model": "lostfantasy:floor_cushion", "y": 270}}}

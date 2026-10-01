@@ -1,0 +1,20 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "lostfantasy:emerald_study",
+      "y": 0
+    },
+    "facing=east": {
+      "model": "lostfantasy:emerald_study",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "lostfantasy:emerald_study",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "lostfantasy:emerald_study",
+      "y": 270
+    }
+  }
+}

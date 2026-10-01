@@ -1,0 +1,20 @@
+{
+  "pools": [
+    {
+      "name": "directions",
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "item",
+          "name": "minecraft:written_book",
+          "functions": [
+            {
+              "function": "set_nbt",
+              "tag": "{title:\"山中手记\",author:\"山行人\",pages:[\"{\\\"text\\\": \\\"从路口沿石径往西北走，到西侧石弯向北。转向东，绕到大榉树右侧；再向北，沿树后的小径折回西边，最后向北走进林中。\\\\n\\\\n一步步循路，莫从树下抄近道。\\\"}\"]}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "name": "紫的宅邸",
+  "category": "lostfantasy:basics",
+  "icon": "lostfantasy:gap_fragment",
+  "sortnum": 16,
+  "pages": [
+    {
+      "type": "text",
+      "text": "从幻想乡的境界院门可以进$(br)入八云邸。归路在宅邸的院$(br)门。$(br)$(br)藏书间的收藏箱里放着隙间$(br)碎片。茶室有食物，书房有$(br)纸和附魔材料，寝室留日用$(br)品，望楼还存了些珍贵材料$(br)。"
+    }
+  ]
+}

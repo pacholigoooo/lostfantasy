@@ -1,0 +1,32 @@
+{
+  "ambientocclusion": false,
+  "textures": {
+    "particle": "lostfantasy:blocks/autumn_leaves",
+    "leaves": "lostfantasy:blocks/autumn_leaves"
+  },
+  "elements": [
+    {
+      "from": [
+        0,
+        0.03,
+        0
+      ],
+      "to": [
+        16,
+        0.08,
+        16
+      ],
+      "faces": {
+        "up": {
+          "texture": "#leaves",
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ]
+        }
+      }
+    }
+  ]
+}

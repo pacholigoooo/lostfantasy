@@ -1,0 +1,30 @@
+{
+  "display": {
+    "icon": {
+      "item": "lostfantasy:grimoire_manuscript"
+    },
+    "title": {
+      "translate": "advancement.lostfantasy.manuscript.title"
+    },
+    "description": {
+      "translate": "advancement.lostfantasy.manuscript.description"
+    },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "collected": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "lostfantasy:grimoire_manuscript"
+          }
+        ]
+      }
+    }
+  },
+  "parent": "lostfantasy:library"
+}

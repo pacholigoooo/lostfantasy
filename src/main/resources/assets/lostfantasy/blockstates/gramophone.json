@@ -1,0 +1,20 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "lostfantasy:gramophone",
+      "y": 0
+    },
+    "facing=east": {
+      "model": "lostfantasy:gramophone",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "lostfantasy:gramophone",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "lostfantasy:gramophone",
+      "y": 270
+    }
+  }
+}

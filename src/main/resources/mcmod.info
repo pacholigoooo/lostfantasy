@@ -1,0 +1,13 @@
+[
+  {
+    "modid": "lostfantasy",
+    "name": "失落幻想 · 幻想符卡",
+    "description": "东方 Project 主题同人模组：灵力、种族晋升、符卡与隙间。",
+    "version": "${version}",
+    "mcversion": "1.12.2",
+    "logoFile": "logo.png",
+    "authorList": ["Lost Fantasy"],
+    "credits": "Touhou Project belongs to Team Shanghai Alice. This is an unofficial fan work.",
+    "dependencies": []
+  }
+]

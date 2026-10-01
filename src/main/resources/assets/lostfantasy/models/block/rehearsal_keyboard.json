@@ -1,0 +1,78 @@
+{
+  "parent": "block/block",
+  "ambientocclusion": true,
+  "textures": {
+    "particle": "lostfantasy:blocks/gensokyo_craft",
+    "craft": "lostfantasy:blocks/gensokyo_craft"
+  },
+  "elements": [
+    {
+      "from": [
+        1,
+        8.2,
+        3
+      ],
+      "to": [
+        15,
+        10.42,
+        8.6
+      ],
+      "faces": {
+        "up": {
+          "texture": "#craft",
+          "uv": [
+            0.06,
+            4.06,
+            3.94,
+            7.94
+          ]
+        },
+        "down": {
+          "texture": "#craft",
+          "uv": [
+            0.06,
+            4.06,
+            3.94,
+            7.94
+          ]
+        },
+        "north": {
+          "texture": "#craft",
+          "uv": [
+            0.06,
+            4.06,
+            3.94,
+            7.94
+          ]
+        },
+        "south": {
+          "texture": "#craft",
+          "uv": [
+            0.06,
+            4.06,
+            3.94,
+            7.94
+          ]
+        },
+        "east": {
+          "texture": "#craft",
+          "uv": [
+            0.06,
+            4.06,
+            3.94,
+            7.94
+          ]
+        },
+        "west": {
+          "texture": "#craft",
+          "uv": [
+            0.06,
+            4.06,
+            3.94,
+            7.94
+          ]
+        }
+      }
+    }
+  ]
+}

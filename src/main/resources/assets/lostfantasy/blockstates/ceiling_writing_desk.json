@@ -1,0 +1,24 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "lostfantasy:writing_desk",
+      "x": 180,
+      "y": 180
+    },
+    "facing=east": {
+      "model": "lostfantasy:writing_desk",
+      "x": 180,
+      "y": 270
+    },
+    "facing=south": {
+      "model": "lostfantasy:writing_desk",
+      "x": 180,
+      "y": 0
+    },
+    "facing=west": {
+      "model": "lostfantasy:writing_desk",
+      "x": 180,
+      "y": 90
+    }
+  }
+}

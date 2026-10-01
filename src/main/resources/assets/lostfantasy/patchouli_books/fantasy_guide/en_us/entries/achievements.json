@@ -1,0 +1,12 @@
+{
+  "name": "问紫",
+  "category": "lostfantasy:basics",
+  "icon": "minecraft:book",
+  "sortnum": 19,
+  "pages": [
+    {
+      "type": "text",
+      "text": "隙间里脚下的支撑，为什么$(br)停在进入时的高度？$(br)$(br)宅邸的院门能一直回到来处$(br)，秘钥打开的裂隙也通向隙$(br)间，两处的归路为什么不同$(br)？"
+    }
+  ]
+}

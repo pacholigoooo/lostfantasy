@@ -1,0 +1,16 @@
+{
+  "variants": {
+    "axis=y": {
+      "model": "lostfantasy:kappa_pipe"
+    },
+    "axis=x": {
+      "model": "lostfantasy:kappa_pipe",
+      "x": 90,
+      "y": 90
+    },
+    "axis=z": {
+      "model": "lostfantasy:kappa_pipe",
+      "x": 90
+    }
+  }
+}

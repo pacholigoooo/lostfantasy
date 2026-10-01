@@ -1,0 +1,1 @@
+{"variants": {"facing=north": {"model": "lostfantasy:kitchen_shelf", "y": 0}, "facing=east": {"model": "lostfantasy:kitchen_shelf", "y": 90}, "facing=south": {"model": "lostfantasy:kitchen_shelf", "y": 180}, "facing=west": {"model": "lostfantasy:kitchen_shelf", "y": 270}}}
